@@ -1,0 +1,167 @@
+body {
+  background-color: #adaca7;
+  font-family: "Work Sans";
+  padding: 0;
+  margin: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+.CV-page {
+  margin: 0% 20%;
+  height: auto;
+  background-color: white;
+  display: flex;
+}
+.summary {
+  padding: 2em 10rem 8rem 4rem;
+  background-color: #f9d098;
+  width: 17%;
+  margin-top: 18%;
+  height: auto;
+  text-align: center;
+}
+.dp-name-role {
+  text-align: center;
+  position: relative;
+  top: -12%;
+  left: 35%;
+}
+.role {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.name {
+  display: flex;
+  font-size: 2rem;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  left: -13%;
+  font-weight: 400;
+}
+#last-name {
+  padding-left: 10px;
+}
+.contact-info {
+  position: relative;
+  left: 35%;
+  line-height: 200%;
+  padding-bottom: 50%;
+}
+.contact-info-heading {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.contact-info-sub-heading {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.summary-separation1 {
+  border: 1px solid black;
+  position: relative;
+  left: 30%;
+  margin-bottom: 60%;
+}
+.skills-info {
+  position: relative;
+  left: 35%;
+}
+.skill-info-heading {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.filled-box {
+  height: 0.6em;
+  width: 1.8em;
+  background-color: #44321d;
+  border-radius: 2px;
+  border: 3px solid #44321d;
+  margin: 1%;
+}
+.skill {
+  margin: 1%;
+  padding-right: 20px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+.empty-box {
+  height: 0.6em;
+  width: 2em;
+  background-color: #ffecec;
+  border-radius: 2px;
+  border: 3px solid #44321d;
+  margin: 1%;
+}
+.skill-bars {
+  display: flex;
+  width: auto;
+}
+.profile-picture {
+  height: 10em;
+  width: 10em;
+  border-radius: 100px;
+}
+.summary-separation2 {
+  border: 1px solid black;
+  margin-top: 50%;
+  margin-bottom: 60%;
+}
+.hobbies {
+  display: flex;
+  justify-content: center;
+}
+.hobbies span {
+  font-weight: 500;
+  margin: 6%;
+}
+.second-card {
+  padding: 50px;
+  width: 60%;
+  float: left;
+}
+.main-content {
+  padding-left: 30px;
+  border-left: 2px solid black;
+}
+.main-content-heading {
+  font-weight: 500;
+  padding-left: 10px;
+  border-left: 10px solid black;
+}
+.main-content-sub-heading {
+  font-weight: 500;
+  display: flex;
+}
+.year-of-experience {
+  font-size: medium;
+  margin-left: 70px;
+}
+.content-container {
+  margin-bottom: 20%;
+}
+.refrences-connect {
+  display: flex;
+  justify-content: space-between;
+}
+.connect {
+  padding-right: 20px;
+}
+.connect-content {
+  padding-left: 30px;
+  border-left: 2px solid black;
+  width: 60%;
+}
+.icon {
+  font-size: 30px;
+  padding-right: 20px;
+}
+.connect-container {
+  display: flex;
+  margin-bottom: 30px;
+}
