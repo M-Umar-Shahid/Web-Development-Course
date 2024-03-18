@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Umar fitness</title>
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap"
+    rel="stylesheet"
+  />
+  <style>
+    .logo {
+      text-align: center;
+    }
+    img {
+      width: 100px;
+    }
+    .container {
+      height: 100px;
+      border-radius: 100px;
+      width: 800px;
+      margin-left: 250px;
+    }
+    body {
+      font-family: "Baloo Bhai 2", cursive;
+      color: white;
+      background: url("gym4.jpg");
+      background-size: 100vh;
+      background-size: 100vw;
+    }
+    .box {
+      display: inline-block;
+      margin: 15px 10px;
+      /* border: 2px solid red; */
+    }
+    #b1 {
+      position: absolute;
+      top: 8px;
+      right: 5px;
+    }
+    #b3 {
+      position: absolute;
+      top: 6px;
+      left: 5px;
+    }
+    #b2 {
+      display: block;
+      margin: auto;
+      width: 650px;
+      padding-top: 5px;
+      font-size: large;
+    }
+    #b2 li {
+      display: inline-block;
+      padding: 40px;
+    }
+    #b2 a {
+      text-decoration: none;
+      color: white;
+    }
+    #b2 li :hover {
+      color: red;
+    }
+    .btn {
+      font-family: "Baloo Bhai 2", cursive;
+      color: white;
+      background-color: black;
+      padding: 7px 20px;
+      margin: 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .container2 {
+      width: 500px;
+      margin-top: 120px;
+      border: 5px solid white;
+      border-radius: 5px;
+    }
+    .container2 input {
+      display: block;
+      margin: 7px auto;
+      padding: 10px;
+      border-radius: 4px;
+    }
+    .head {
+      text-align: center;
+    }
+    .container2 button {
+      display: block;
+      margin: 10px auto;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="box" id="b3">
+        <img src="gym logo.png" alt="" />
+        <div class="logo">Umar Fitness</div>
+      </div>
+      <div class="box" id="b2">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+      <div class="box" id="b1">
+        <button class="btn">Call us</button
+        ><button class="btn">Email Us</button>
+      </div>
+    </div>
+    <div class="container2">
+      <div class="head"><h3>Join our gym</h3></div>
+      <input type="text" placeholder="Enter your name" />
+      <input type="text" placeholder="Enter your age" />
+      <input type="text" placeholder="Enter your gender" />
+      <input type="text" placeholder="Enter your CNIC" />
+      <button class="btn">Submit</button>
+    </div>
+  </body>
+</html>
