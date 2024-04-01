@@ -82,7 +82,6 @@ function handleFormSubmission(event) {
   var title = $("#createTitle").val();
   var content = $("#createContent").val();
   if (movieId) {
-    console.log("hello");
     $.ajax({
       url: "https://usmanlive.com/wp-json/api/stories/" + movieId,
       method: "PUT",
@@ -97,7 +96,6 @@ function handleFormSubmission(event) {
       },
     });
   } else {
-    console.log("hello2");
     $.ajax({
       url: "https://usmanlive.com/wp-json/api/stories",
       method: "POST",
