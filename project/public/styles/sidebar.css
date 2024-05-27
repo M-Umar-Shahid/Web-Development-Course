@@ -1,0 +1,36 @@
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  right: 0; /* Position sidebar on the right side */
+  background-color: #818181;
+  overflow-x: hidden;
+  transition: 0.5s; /* Add transition for smooth sliding */
+  z-index: 9999; /* Adjust z-index to bring sidebar to the front */
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: black;
+}
+
+.sidebar .close-btn {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 5px; /* Adjust position of close button */
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* CSS for sidebar */
