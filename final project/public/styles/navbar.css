@@ -91,3 +91,9 @@ header {
   font-size: 36px;
   margin-left: 50px;
 }
+.bx-door-open {
+  transform: scale(1.1);
+  color: #ee1c47;
+  cursor: pointer;
+  margin-left: 10px;
+}
